@@ -11,6 +11,7 @@
 		2E0B3D8A296B549B00560F8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B3D89296B549B00560F8A /* ContentView.swift */; };
 		2E0B3D8C296B549C00560F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0B3D8B296B549C00560F8A /* Assets.xcassets */; };
 		2E0B3D8F296B549C00560F8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0B3D8E296B549C00560F8A /* Preview Assets.xcassets */; };
+		2E0B3D97296B79F400560F8A /* emergency-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E0B3D96296B79F400560F8A /* emergency-sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2E0B3D89296B549B00560F8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E0B3D8B296B549C00560F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0B3D8E296B549C00560F8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E0B3D96296B79F400560F8A /* emergency-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "emergency-sound.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		2E0B3D86296B549B00560F8A /* tuimedaq */ = {
 			isa = PBXGroup;
 			children = (
+				2E0B3D95296B79B400560F8A /* Sounds */,
 				2E0B3D87296B549B00560F8A /* tuimedaqApp.swift */,
 				2E0B3D89296B549B00560F8A /* ContentView.swift */,
 				2E0B3D8B296B549C00560F8A /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2E0B3D8E296B549C00560F8A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E0B3D95296B79B400560F8A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2E0B3D96296B79F400560F8A /* emergency-sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0B3D8F296B549C00560F8A /* Preview Assets.xcassets in Resources */,
+				2E0B3D97296B79F400560F8A /* emergency-sound.mp3 in Resources */,
 				2E0B3D8C296B549C00560F8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
